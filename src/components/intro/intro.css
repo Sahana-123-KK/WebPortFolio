@@ -1,0 +1,155 @@
+.i {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  /* background-color: cadetblue; */
+}
+.i-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll {
+  color: red;
+  font-size: 40px;
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+}
+.i-right {
+  position: relative;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.i-left-wrapper {
+  padding: 50px;
+  height: 60%;
+  /* background-color: #dd0101; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.intro {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0px;
+}
+.i-img {
+  /* box-shadow: 30px 30px; */
+  /* border-radius: 50%; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  /* top: 20%;
+  right: 10%; */
+  /* clip-path: polygon(100% 0%, 100% 55%, 100% 100%, 25% 100%, 0% 50%, 25% 0%); */
+}
+.imgback {
+  position: absolute;
+  top: 0;
+  right: 0;
+  clip-path: polygon(100% 0%, 100% 55%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  height: 100%;
+  width: 100%;
+  background-color: #4ed14e;
+}
+.name {
+  margin: 0px;
+  margin-bottom: 15px;
+  font-size: 60px;
+}
+
+.i-title {
+  height: 50px;
+  overflow: hidden;
+}
+.i-wrapper {
+  height: 100%;
+  animation: move 6s ease-in-out infinite alternate;
+}
+@keyframes move {
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+.i-title-item {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4ed14e;
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+}
+.desc {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .i {
+    flex-direction: column;
+  }
+  .i-left {
+    height: 40%;
+    width: 76%;
+  }
+  .i-right {
+    height: 60%;
+    width: 100%;
+  }
+  .i-left-wrapper {
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .i-left {
+    height: 48%;
+    width: 90%;
+  }
+  .i-right {
+    height: 52%;
+    width: 100%;
+
+  }
+  .i-left-wrapper {
+    padding: 40px;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .i-left {
+    height: 60%;
+  }
+  .i-right {
+    height: 40%;
+  }
+  .i-title-item {
+    font-size: 25px;
+  }
+  .name {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .name {
+    font-size: 40px;
+  }
+  .i-left-wrapper{
+    padding: 25px;
+  }
+  .i-title-item{
+    font-size: 20px;
+  }
+}

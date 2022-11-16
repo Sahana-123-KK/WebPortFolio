@@ -1,0 +1,170 @@
+.con {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.detailscon a {
+  color: black;
+}
+.con-left {
+  margin-left: 20px;
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.conheadleft {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.con-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 15px;
+}
+.status {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.con-desc {
+  font-size: 20px;
+  font-weight: 300;
+}
+.detailscon i {
+  font-size: 25px;
+}
+.detailscon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  /* width: 40%; */
+}
+.detailscon p {
+  margin-left: 20px;
+}
+.formscontact {
+  width: 80%;
+  margin: 30px;
+}
+
+.btnown {
+  background-color: #4ed14e;
+  color: white;
+  border-radius: 0px;
+}
+
+.sty {
+  width: 20px;
+  background-color: #4ed14e;
+  height: 100%;
+  position: absolute;
+}
+.returnmessage {
+  color: #4ed14e;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .con {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .con-left {
+    width: 90%;
+    height: 40%;
+  }
+  .con-right {
+    width: 90%;
+    height: 58%;
+  }
+  .status {
+    margin-left: 20px;
+  }
+  .formscontact {
+    height: 80%;
+  }
+  .formclass {
+    height: 90%;
+  }
+  .top {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .con-left {
+    height: 33%;
+    padding: 12px;
+  }
+  .conheadleft {
+    font-size: 35px;
+  }
+  .con-desc {
+    font-size: 15px;
+  }
+  .con-right {
+    height: 64%;
+    justify-content: flex-start;
+  }
+  .formclass div {
+    margin-bottom: 0px !important;
+  }
+  .formscontact {
+    margin: 7px;
+  }
+  .con {
+    justify-content: flex-start;
+  }
+  .btnown {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .conheadleft {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .detailscon i {
+    font-size: 18px;
+  }
+  .con-right {
+    width: 97%;
+  }
+  .form-label {
+    margin-bottom: 2px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .conheadleft {
+    font-size: 20px;
+  }
+  .detailscon p {
+    font-size: 10px;
+  }
+  .detailscon i {
+    font-size: 15px;
+  }
+  .detailscon {
+    align-items: baseline;
+  }
+  .status {
+    font-size: 17px;
+  }
+  .con-desc {
+    font-size: 13px;
+  }
+  .form-label {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/WebPortFolio/static/css/main.d04d8dbc.css",
+    "main.js": "/WebPortFolio/static/js/main.2549b7fb.js",
+    "static/js/787.0c33adce.chunk.js": "/WebPortFolio/static/js/787.0c33adce.chunk.js",
+    "static/media/myself.png": "/WebPortFolio/static/media/myself.f6f93b46b0d458ed389b.png",
+    "static/media/project.jpg": "/WebPortFolio/static/media/project.780816b6ba076cc2cc69.jpg",
+    "static/media/react.png": "/WebPortFolio/static/media/react.73dbb5bcec516da82694.png",
+    "static/media/mongo.png": "/WebPortFolio/static/media/mongo.3a364684503a40b5fbb2.png",
+    "static/media/bootstrap.png": "/WebPortFolio/static/media/bootstrap.e53d77fae52c3827fb74.png",
+    "static/media/mern.png": "/WebPortFolio/static/media/mern.88c11749963e60be4b49.png",
+    "static/media/css.png": "/WebPortFolio/static/media/css.4e67641bb68b658d9b2b.png",
+    "static/media/me.png": "/WebPortFolio/static/media/me.47d81a8afbca9968e30a.png",
+    "static/media/html.png": "/WebPortFolio/static/media/html.23784160d848f734c302.png",
+    "static/media/skills.jpg": "/WebPortFolio/static/media/skills.934ece73a9e8fcd80d1e.jpg",
+    "static/media/express.png": "/WebPortFolio/static/media/express.fde8826b2a1c6c27df91.png",
+    "static/media/next.png": "/WebPortFolio/static/media/next.a725f5cb51998c30c03a.png",
+    "static/media/django.png": "/WebPortFolio/static/media/django.1561b91d7b75f3ca2814.png",
+    "index.html": "/WebPortFolio/index.html",
+    "main.d04d8dbc.css.map": "/WebPortFolio/static/css/main.d04d8dbc.css.map",
+    "main.2549b7fb.js.map": "/WebPortFolio/static/js/main.2549b7fb.js.map",
+    "787.0c33adce.chunk.js.map": "/WebPortFolio/static/js/787.0c33adce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d04d8dbc.css",
+    "static/js/main.2549b7fb.js"
+  ]
+}
